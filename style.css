@@ -6,27 +6,32 @@
   box-sizing: border-box;
 }
 body {
-  background: url(snow.jpg);
+  background-image: url(snow.jpg);
   background-size: cover;
-
-  font-family: "Poppins", sans-serif;
-}
-
-.container {
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  margin-top: -15rem;
+  color: rgb(221, 10, 10);
+}
+
+.container {
+  width: 50%;
+  height: 40vh;
+  margin-top: 16rem;
 }
 .heading {
   margin-top: 7rem;
-  color: #232222;
+  color: #9efcff;
 }
 .countdown {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 2rem;
   margin-left: 34px;
 }
 
